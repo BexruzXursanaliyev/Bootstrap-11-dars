@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main7.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                OPEN
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="font-weight-bold">Register</h4><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <div class="input-group-prepend a">
+                                        <h6>
+                                            Name
+                                        </h6>
+                                    </div>
+                                    <input type="text" class="b"><p class="text-danger t">The name field is required</p>
+                                </div>
+                                <div class="input-group my-5">
+                                    <div class="input-group-prepend a2">
+                                        <h6>
+                                            E-Mail Address
+                                        </h6>
+                                    </div>
+                                    <input type="text" class="b2" placeholder="some@gmail.com">
+                                </div>
+                                <div class="input-group my-5">
+                                    <div class="input-group-prepend a3">
+                                        <h6>
+                                            Password
+                                        </h6>
+                                    </div>
+                                    <input type="password" class="b3"><p class="text-danger t">The password must be at least 8 characters</p>
+                                </div>
+                                <div class="input-group my-5">
+                                    <div class="input-group-prepend">
+                                        <h6>
+                                            Confirm Password
+                                        </h6>
+                                    </div>
+                                    <input type="password" class="b4">
+                                </div>
+                                <button type="button" class="btn btn-primary register" data-dismiss="modal">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

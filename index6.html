@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main6.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                OPEN
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="font-weight-bold">Add Person</h4><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <p class="font-weight-bold b">
+                                            First Name
+                                        </p>
+                                    </div>
+                                    <input type="text" class="form-control a1" placeholder="First Name">
+                                </div>
+                                <div class="input-group my-3">
+                                    <div class="input-group-prepend">
+                                        <p class="font-weight-bold b1">
+                                            Last Name
+                                        </p>
+                                    </div>
+                                    <input type="text" class="form-control a2" placeholder="Last Name">
+                                </div>
+                                <div class="input-group my-3">
+                                    <div class="input-group-prepend">
+                                        <p class="font-weight-bold b2">
+                                            Gender
+                                        </p>
+                                    </div>
+                                    <input type="text" class="form-control a3" placeholder="Male">
+                                </div>
+                                <div class="input-group my-3">
+                                    <div class="input-group">
+                                        <p class="font-weight-bold b3">
+                                            Address
+                                        </p>
+                                        <textarea name="dist" class="form-control a4" id="dist" placeholder="Address"></textarea>
+                                    </div>
+                                </div>
+                                <div class="input-group my-3">
+                                    <div class="input-group-prepend">
+                                        <p class="font-weight-bold b4">
+                                            Date of Birth
+                                        </p>
+                                    </div>
+                                    <input type="text" class="form-control a5" placeholder="yyy-mm-dd">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cencel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
